@@ -1,6 +1,6 @@
 class Account ( x:String , y:Int , z:Double){
 
-  val NIC : String = x
+  val Name : String = x
   val accountNo : Int = y
   var balance : Double = z
 
@@ -15,6 +15,6 @@ class Account ( x:String , y:Int , z:Double){
 
 
   @Override
-  override def toString() : String = "NIC : " + this.NIC + "\n Account Number : " + this.accountNo + "\n Balance : " + this.balance + "\n\n"
+  override def toString() : String = "Name : " + this.Name + "\n Account Number : " + this.accountNo + "\n Balance : " + this.balance + "\n\n"
 
 }
